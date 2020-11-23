@@ -1,5 +1,7 @@
 package server;
 
+import logic.Math;
+
 import java.io.*;
 import java.net.Socket;
 import java.util.Date;
@@ -11,6 +13,11 @@ public class ClientHandler implements Runnable {
     public ClientHandler(Socket client) {
         this.clientDialog = client;
     }
+
+    //Создание ссылки math объетка logic.Math
+    //При работе в методе run() будет происходить
+    //инъекция данных в данный класс для вычисления результата
+    Math math;
 
     @Override
     public void run() {
@@ -39,12 +46,20 @@ public class ClientHandler implements Runnable {
 
             System.out.println("Method: " + method);
             System.out.println("Request: " + fileRequested.substring(1));
+//  В данной точке кода добавить вхождение в файл и вычислить ответ.
+            math = new Math(fileRequested.substring(1));
+            math.Parser();
+//  Тестовые данные. Вывод данных на монитор для проверки
+            System.out.println("Данные с парсера:"+math.getResult());
 
             // пока поддерживаем GET and HEAD запросы
             if (method.equals("GET") || method.equals("HEAD")) {
 
                 String content = getContentType(fileRequested);
-                String body = getBody(fileRequested.substring(1));
+//Записать в переменную body полученное значение, а не значение, полученное в ходе запроса
+                String numbers = "Input numbers: " + getBody(fileRequested.substring(1));
+                String body = "Result of counting: " + getBodyResult(Double.toString(math.getResult()));
+//                String body = Double.toString(math.getResult());
 
                 if (method.equals("GET")) {
                     // GET method - возвращаем ответ
@@ -55,10 +70,10 @@ public class ClientHandler implements Runnable {
                     out.println("Date: " + new Date());
                     out.println("Content-type: " + content);
                     //Длина ответа - эхо запроса без первого "/"
-                    out.println("Content-length: " + body.length());
+                    out.println("Content-length: " + body.length() + numbers.length());
                     out.println(); // Пустая строка между headers и содержимым!
                     out.flush();
-
+                    dataOut.write(numbers.getBytes(), 0, numbers.length());
                     dataOut.write(body.getBytes(), 0, body.length());
                     dataOut.flush();
                 }
@@ -80,6 +95,10 @@ public class ClientHandler implements Runnable {
     }
 
     private String getBody(String request) {
-        return "<h1>" + request + "</h1>";
+          return "<b>" + request + "</b>" + "<br>";
+    }
+
+    private String getBodyResult(String result){
+        return "<b>" + result + "</b>";
     }
 }
