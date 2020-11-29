@@ -56,10 +56,13 @@ public class ClientHandler implements Runnable {
             if (method.equals("GET") || method.equals("HEAD")) {
 
                 String content = getContentType(fileRequested);
-//Записать в переменную body полученное значение, а не значение, полученное в ходе запроса
+                //Записать в переменную body полученное значение, а не значение, полученное в ходе запроса
                 String numbers = "Input numbers: " + getBody(fileRequested.substring(1));
                 String body = "Result of counting: " + getBodyResult(Double.toString(math.getResult()));
-//                String body = Double.toString(math.getResult());
+                String param = "The work was performed by: Markin Viktor Vladimirovich <br> Group Number: IKBO-01-18\n" +
+                        "Individual task number: 1<br>\n" +
+                        "Text of the individual task: \"Search for the maximum number\"<br>";
+                //String body = Double.toString(math.getResult());
 
                 if (method.equals("GET")) {
                     // GET method - возвращаем ответ
@@ -70,11 +73,14 @@ public class ClientHandler implements Runnable {
                     out.println("Date: " + new Date());
                     out.println("Content-type: " + content);
                     //Длина ответа - эхо запроса без первого "/"
-                    out.println("Content-length: " + body.length() + numbers.length());
+                    out.println("Content-length: " + body.length() + numbers.length() + param.length());
                     out.println(); // Пустая строка между headers и содержимым!
                     out.flush();
+                    dataOut.write(param.getBytes(), 0, param.length());
                     dataOut.write(numbers.getBytes(), 0, numbers.length());
                     dataOut.write(body.getBytes(), 0, body.length());
+                    //Отправляем тестовые данные
+//                    dataOut.write();
                     dataOut.flush();
                 }
 
@@ -102,3 +108,8 @@ public class ClientHandler implements Runnable {
         return "<b>" + result + "</b>";
     }
 }
+/*
+Работу выполнил: Иванов Иван Иванович Номер группы: ИКБО-01-18
+Номер индивидуального задания: 3
+Текст индивидуального задания: «Создание калькулятора…»
+ */
