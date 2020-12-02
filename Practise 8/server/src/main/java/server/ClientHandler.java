@@ -129,13 +129,15 @@ public class ClientHandler implements Runnable {
         html += "<body>";
         html += "<h1>List of students: </h1><br/>";
         html += prepareTable(DataManager.getInstance().getStudentList());
+//        html += "<input type=\"button\" value=\"Add\" onclick=\"addRow()\">";
+        html += "<button type=\"button\" onclick=\"addRow()\">add Row</button>";
         html += "</body>";
         return html;
     }
 
     private String prepareTable(List<Student> list) {
         String test;
-        String table = "<table class=\"content\">";
+        String table = "<table class=\"content\" id=\"tableId\">";
         table += "<tr><th>Student</th><th>Age</th><th/></tr>";
 
         for (Student student : list) {
@@ -143,9 +145,13 @@ public class ClientHandler implements Runnable {
                      "<td>"+student.getFIO()+"</td>" + //Создание ячейки 1
                      "<td>"+student.getAge()+"</td>" + //Создание ячейки 2
                      "<td><input type=\"button\" value=\"Press\" onclick=\"ShowMessage('"+student.getFIO()+"')\">" + //Вывод
-                    "</td>" + //Строка вывода данных + вывода на дисплей данных
+                     "</td>" + //Строка вывода данных + вывода на дисплей данных
+                    "<td><input type=\"button\" value=\"Delete\" onclick=\"deleteRow(this)\">" +
+                    "</td>" +
+//                    "<td><input type=\"button\" value=\"Add\" onclick=\"addRow()\">" +
+//                    "</td>" +
 
-                     "</tr>";
+                    "</tr>";
         }
         table += "</table>";
 
