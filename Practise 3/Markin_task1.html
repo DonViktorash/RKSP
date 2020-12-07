@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Практика №1 - html сайт -->
 <head>
-	<meta charset="UTF-8">
-	<title>Task 2</title>
+	<meta charset="UTF-8"> 
+	
+	<a href="Test.html"><div class="b">Practise 2 (Press)</div></a>
+	
+	<title>Task 3</title>
+	
+	<!-- Создание линки на  CSS файл -->
 	<link rel="stylesheet" href="style/style.css">
-</head>
-<body>
+	
+	<style>
+	.align_center{
+	border: 1px solid #aaa;
+	background: #FFDEAD;
+	padding: 3px;
+	text-align: center;
+	}
+	</style>
 
+</head>
+
+<body>
 	<div class="main-container">
+	<h2> Task 1 </h2>
+	<div class="a">
 		<ol>
 			<li type="I" value="49">HTML</li>
 			<li type="I">CSS</li>
 			<li type="I">JavaScript</li>
-		</ol>
-
+		</ol>		
+		<p>
+			<span style = "color:orange">Below</span> is a <span style = "color:red">table</span> 
+			for the <span style = "color:orange">task</span>
+		</p>
+		<hr>
+		<h2>Task 2</h2>
+		<p>Table is <sub>below</sub> of this <sup>text</sup>.</p>
 		<table>
 			<tr>
 				<td width="50" bgcolor="red" rowspan="2"></td>
@@ -28,19 +52,51 @@
 				<td width="50" bgcolor="red"></td>
 			</tr>
 		</table>
+		<hr>
+		<pre>
+			Text in a pre element
+			is <mark>displayed</mark> in a fixed-width
+			<mark>font</mark>, and it preserves
+			both      <mark>spaces</mark> and
+			<mark>line breaks</mark>
+		</pre>
+		<br>
+		<h1>Task 3 </h1>
+		<div class="c">
+		<li><input type="checkbox"><b>HTML</b></li>
+		<li><input type="checkbox"><i>CSS</i></li>
+		<li><input type="checkbox"><u>JavaScript</u></li>
+		</div>
 
 		<br>
-
-		<li><input type="checkbox">HTML</li>
-		<li><input type="checkbox">CSS</li>
-		<li><input type="checkbox">JavaScript</li>
-
 		<br>
 
 		<p>Укажите URL:<br>
 		<input type="text"><input type="submit">
 		<br>
 		<input type="reset"></p>
+		</div>
+		
+		<hr>
+		
+		<h1>Task 4 </h1>
+		<div class="ramka">
+		<div class = "c">
+		Today was a good day
+		</div>
+		</div>
 	</div>
+	<br>
+	<details>
+  <summary>Copyright by Victor M (2020-Nowadays).</summary>
+  <figure>
+  <div class="align_center">
+  		<img src="robot.jpg" alt="Robot" width="180" height="100">
+  		<figcaption>I am.</figcaption>
+  </div>
+  </figure>
+  <p>All Rights Reserved.</p>
+  <p>All content and graphics on this web site are the property of the company Viktor Markin Inc.</p>
+</details>
 </body>
 </html>
