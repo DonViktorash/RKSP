@@ -1,0 +1,406 @@
+[Mon Nov 23 12:07:49.975428 2020] [mpm_winnt:notice] [pid 1544:tid 756] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:07:49.975428 2020] [mpm_winnt:notice] [pid 1544:tid 756] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:07:49.975428 2020] [core:notice] [pid 1544:tid 756] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:07:49.976428 2020] [mpm_winnt:notice] [pid 1544:tid 756] AH00418: Parent: Created child process 4344
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 4344:tid 796] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:10:03.425968 2020] [mpm_winnt:notice] [pid 1544:tid 756] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:10:05.428646 2020] [mpm_winnt:notice] [pid 4344:tid 796] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 12:10:05.445078 2020] [mpm_winnt:notice] [pid 1544:tid 756] AH00430: Parent: Child process 4344 exited successfully.
+[Mon Nov 23 12:10:37.352894 2020] [mpm_winnt:notice] [pid 9064:tid 760] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:10:37.352894 2020] [mpm_winnt:notice] [pid 9064:tid 760] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:10:37.352894 2020] [core:notice] [pid 9064:tid 760] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:10:37.353893 2020] [mpm_winnt:notice] [pid 9064:tid 760] AH00418: Parent: Created child process 1540
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 1540:tid 796] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:11:35.700342 2020] [mpm_winnt:notice] [pid 9064:tid 760] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:11:37.701324 2020] [mpm_winnt:notice] [pid 1540:tid 796] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 12:11:37.719384 2020] [mpm_winnt:notice] [pid 9064:tid 760] AH00430: Parent: Child process 1540 exited successfully.
+[Mon Nov 23 12:11:42.587128 2020] [mpm_winnt:notice] [pid 9620:tid 760] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:11:42.587128 2020] [mpm_winnt:notice] [pid 9620:tid 760] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:11:42.587128 2020] [core:notice] [pid 9620:tid 760] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:11:42.589119 2020] [mpm_winnt:notice] [pid 9620:tid 760] AH00418: Parent: Created child process 13100
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 13100:tid 796] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:13:48.590214 2020] [mpm_winnt:notice] [pid 9620:tid 760] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:13:50.591262 2020] [mpm_winnt:notice] [pid 13100:tid 796] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 12:13:50.608245 2020] [mpm_winnt:notice] [pid 9620:tid 760] AH00430: Parent: Child process 13100 exited successfully.
+[Mon Nov 23 12:14:18.120268 2020] [mpm_winnt:notice] [pid 2808:tid 184] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:14:18.121268 2020] [mpm_winnt:notice] [pid 2808:tid 184] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:14:18.121268 2020] [core:notice] [pid 2808:tid 184] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:14:18.124267 2020] [mpm_winnt:notice] [pid 2808:tid 184] AH00418: Parent: Created child process 4916
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 4916:tid 584] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:15:19.851160 2020] [mpm_winnt:notice] [pid 2808:tid 184] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:15:22.154969 2020] [mpm_winnt:notice] [pid 4916:tid 584] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 12:15:22.170962 2020] [mpm_winnt:notice] [pid 2808:tid 184] AH00430: Parent: Child process 4916 exited successfully.
+[Mon Nov 23 12:16:34.229787 2020] [mpm_winnt:notice] [pid 7412:tid 560] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:16:34.230785 2020] [mpm_winnt:notice] [pid 7412:tid 560] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:16:34.230785 2020] [core:notice] [pid 7412:tid 560] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:16:34.232765 2020] [mpm_winnt:notice] [pid 7412:tid 560] AH00418: Parent: Created child process 8788
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 8788:tid 552] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:16:39.822265 2020] [mpm_winnt:notice] [pid 7412:tid 560] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:16:41.824306 2020] [mpm_winnt:notice] [pid 8788:tid 552] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 12:16:41.845420 2020] [mpm_winnt:notice] [pid 7412:tid 560] AH00430: Parent: Child process 8788 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 5784:tid 656] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:16:56.244292 2020] [mpm_winnt:notice] [pid 5784:tid 656] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:16:56.244292 2020] [core:notice] [pid 5784:tid 656] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:16:56.245291 2020] [mpm_winnt:notice] [pid 5784:tid 656] AH00418: Parent: Created child process 8084
+[Mon Nov 23 12:16:56.479334 2020] [mpm_winnt:notice] [pid 8084:tid 576] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:17:55.988603 2020] [mpm_winnt:notice] [pid 5784:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:17:57.990209 2020] [mpm_winnt:notice] [pid 8084:tid 576] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 12:17:58.004207 2020] [mpm_winnt:notice] [pid 5784:tid 656] AH00430: Parent: Child process 8084 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 10264:tid 656] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:18:08.206338 2020] [mpm_winnt:notice] [pid 10264:tid 656] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:18:08.206338 2020] [core:notice] [pid 10264:tid 656] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:18:08.207338 2020] [mpm_winnt:notice] [pid 10264:tid 656] AH00418: Parent: Created child process 12196
+[Mon Nov 23 12:18:08.442261 2020] [mpm_winnt:notice] [pid 12196:tid 608] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:20:50.903119 2020] [mpm_winnt:notice] [pid 10264:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:20:52.904340 2020] [mpm_winnt:notice] [pid 12196:tid 608] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 12:20:52.925414 2020] [mpm_winnt:notice] [pid 10264:tid 656] AH00430: Parent: Child process 12196 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 948:tid 624] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:20:56.304844 2020] [mpm_winnt:notice] [pid 948:tid 624] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:20:56.304844 2020] [core:notice] [pid 948:tid 624] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:20:56.305844 2020] [mpm_winnt:notice] [pid 948:tid 624] AH00418: Parent: Created child process 4120
+[Mon Nov 23 12:20:56.531187 2020] [mpm_winnt:notice] [pid 4120:tid 580] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:24:27.561270 2020] [mpm_winnt:notice] [pid 948:tid 624] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:24:57.561698 2020] [mpm_winnt:notice] [pid 948:tid 624] AH00431: Parent: Forcing termination of child process 4120
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 12124:tid 656] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:25:07.565835 2020] [mpm_winnt:notice] [pid 12124:tid 656] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:25:07.565835 2020] [core:notice] [pid 12124:tid 656] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:25:07.566836 2020] [mpm_winnt:notice] [pid 12124:tid 656] AH00418: Parent: Created child process 6356
+[Mon Nov 23 12:25:07.800886 2020] [mpm_winnt:notice] [pid 6356:tid 576] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:26:18.224321 2020] [mpm_winnt:notice] [pid 12124:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:26:40.221142 2020] [mpm_winnt:notice] [pid 6356:tid 576] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 12:26:40.235120 2020] [mpm_winnt:notice] [pid 12124:tid 656] AH00430: Parent: Child process 6356 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 3192:tid 628] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:26:49.801813 2020] [mpm_winnt:notice] [pid 3192:tid 628] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:26:49.801813 2020] [core:notice] [pid 3192:tid 628] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:26:49.802813 2020] [mpm_winnt:notice] [pid 3192:tid 628] AH00418: Parent: Created child process 3388
+[Mon Nov 23 12:26:50.036276 2020] [mpm_winnt:notice] [pid 3388:tid 580] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:27:38.330105 2020] [mpm_winnt:notice] [pid 3192:tid 628] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:27:55.209921 2020] [mpm_winnt:notice] [pid 3388:tid 580] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 12:27:55.230992 2020] [mpm_winnt:notice] [pid 3192:tid 628] AH00430: Parent: Child process 3388 exited successfully.
+[Mon Nov 23 12:31:17.016146 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:31:17.017145 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:31:17.017145 2020] [core:notice] [pid 4264:tid 676] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:31:17.018146 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00418: Parent: Created child process 5084
+[Mon Nov 23 12:31:17.566252 2020] [mpm_winnt:notice] [pid 5084:tid 528] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 4264:tid 676] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Nov 23 12:35:16.764511 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:35:16.764511 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:35:16.764511 2020] [core:notice] [pid 4264:tid 676] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:35:16.765500 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00418: Parent: Created child process 3716
+[Mon Nov 23 12:35:17.732232 2020] [mpm_winnt:notice] [pid 3716:tid 596] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:35:20.643079 2020] [mpm_winnt:notice] [pid 5084:tid 528] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 4264:tid 676] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Nov 23 12:35:58.328185 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:35:58.328185 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:35:58.328185 2020] [core:notice] [pid 4264:tid 676] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:35:58.329184 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00418: Parent: Created child process 3816
+[Mon Nov 23 12:35:59.301414 2020] [mpm_winnt:notice] [pid 3816:tid 592] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 4264:tid 676] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Nov 23 12:36:13.860394 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:36:13.860394 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:36:13.860394 2020] [core:notice] [pid 4264:tid 676] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:36:13.862380 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00418: Parent: Created child process 2472
+[Mon Nov 23 12:36:15.314747 2020] [mpm_winnt:notice] [pid 2472:tid 608] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:36:16.315096 2020] [mpm_winnt:notice] [pid 3816:tid 592] AH00363: Child: Terminating 63 threads that failed to exit.
+[Mon Nov 23 12:36:16.315096 2020] [mpm_winnt:notice] [pid 3816:tid 592] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 12:36:21.700822 2020] [mpm_winnt:notice] [pid 3716:tid 596] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 12:37:29.541074 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:37:32.360359 2020] [mpm_winnt:notice] [pid 2472:tid 608] AH00363: Child: Terminating 122 threads that failed to exit.
+[Mon Nov 23 12:37:34.511803 2020] [mpm_winnt:notice] [pid 4264:tid 676] AH00430: Parent: Child process 2472 exited successfully.
+[Mon Nov 23 12:38:10.947223 2020] [mpm_winnt:notice] [pid 5196:tid 624] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:38:10.947223 2020] [mpm_winnt:notice] [pid 5196:tid 624] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:38:10.947223 2020] [core:notice] [pid 5196:tid 624] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:38:10.949222 2020] [mpm_winnt:notice] [pid 5196:tid 624] AH00418: Parent: Created child process 1088
+[Mon Nov 23 12:38:11.182668 2020] [mpm_winnt:notice] [pid 1088:tid 604] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:40:37.153847 2020] [mpm_winnt:notice] [pid 5196:tid 624] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:41:07.154192 2020] [mpm_winnt:notice] [pid 5196:tid 624] AH00431: Parent: Forcing termination of child process 1088
+[Mon Nov 23 12:41:07.644799 2020] [mpm_winnt:notice] [pid 2768:tid 656] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:41:07.644799 2020] [mpm_winnt:notice] [pid 2768:tid 656] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:41:07.644799 2020] [core:notice] [pid 2768:tid 656] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:41:07.645799 2020] [mpm_winnt:notice] [pid 2768:tid 656] AH00418: Parent: Created child process 2268
+[Mon Nov 23 12:41:07.880836 2020] [mpm_winnt:notice] [pid 2268:tid 584] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:51:55.897833 2020] [mpm_winnt:notice] [pid 2768:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:51:57.899851 2020] [mpm_winnt:notice] [pid 2268:tid 584] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 12:51:57.918947 2020] [mpm_winnt:notice] [pid 2768:tid 656] AH00430: Parent: Child process 2268 exited successfully.
+[Mon Nov 23 12:53:43.533676 2020] [mpm_winnt:notice] [pid 10744:tid 656] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 12:53:43.534675 2020] [mpm_winnt:notice] [pid 10744:tid 656] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 12:53:43.534675 2020] [core:notice] [pid 10744:tid 656] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 12:53:43.535684 2020] [mpm_winnt:notice] [pid 10744:tid 656] AH00418: Parent: Created child process 5140
+[Mon Nov 23 12:53:43.761132 2020] [mpm_winnt:notice] [pid 5140:tid 576] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 12:56:43.110805 2020] [mpm_winnt:notice] [pid 10744:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 12:56:45.112696 2020] [mpm_winnt:notice] [pid 5140:tid 576] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 12:56:45.133709 2020] [mpm_winnt:notice] [pid 10744:tid 656] AH00430: Parent: Child process 5140 exited successfully.
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:00:34.310026 2020] [mpm_winnt:notice] [pid 1700:tid 640] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 13:00:34.310026 2020] [mpm_winnt:notice] [pid 1700:tid 640] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 13:00:34.310026 2020] [core:notice] [pid 1700:tid 640] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 13:00:34.311026 2020] [mpm_winnt:notice] [pid 1700:tid 640] AH00418: Parent: Created child process 9128
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:00:34.561001 2020] [mpm_winnt:notice] [pid 9128:tid 600] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 13:02:09.133507 2020] [mpm_winnt:notice] [pid 1700:tid 640] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 13:02:11.178242 2020] [mpm_winnt:notice] [pid 9128:tid 600] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 13:02:11.193866 2020] [mpm_winnt:notice] [pid 1700:tid 640] AH00430: Parent: Child process 9128 exited successfully.
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:04:08.859078 2020] [mpm_winnt:notice] [pid 4340:tid 636] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 13:04:08.860080 2020] [mpm_winnt:notice] [pid 4340:tid 636] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 13:04:08.860080 2020] [core:notice] [pid 4340:tid 636] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 13:04:08.861080 2020] [mpm_winnt:notice] [pid 4340:tid 636] AH00418: Parent: Created child process 3528
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:04:09.226960 2020] [mpm_winnt:notice] [pid 3528:tid 592] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 13:06:16.200204 2020] [mpm_winnt:notice] [pid 4340:tid 636] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 13:06:43.519507 2020] [mpm_winnt:notice] [pid 3528:tid 592] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 13:06:43.540662 2020] [mpm_winnt:notice] [pid 4340:tid 636] AH00430: Parent: Child process 3528 exited successfully.
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:06:44.217309 2020] [mpm_winnt:notice] [pid 11656:tid 640] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 13:06:44.217309 2020] [mpm_winnt:notice] [pid 11656:tid 640] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 13:06:44.217309 2020] [core:notice] [pid 11656:tid 640] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 13:06:44.218308 2020] [mpm_winnt:notice] [pid 11656:tid 640] AH00418: Parent: Created child process 3280
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:06:44.476220 2020] [mpm_winnt:notice] [pid 3280:tid 600] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 13:11:02.539578 2020] [mpm_winnt:notice] [pid 11656:tid 640] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 13:11:04.541949 2020] [mpm_winnt:notice] [pid 3280:tid 600] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 13:11:04.558987 2020] [mpm_winnt:notice] [pid 11656:tid 640] AH00430: Parent: Child process 3280 exited successfully.
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:11:06.802635 2020] [mpm_winnt:notice] [pid 3660:tid 672] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 13:11:06.804634 2020] [mpm_winnt:notice] [pid 3660:tid 672] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 13:11:06.804634 2020] [core:notice] [pid 3660:tid 672] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 13:11:06.806634 2020] [mpm_winnt:notice] [pid 3660:tid 672] AH00418: Parent: Created child process 548
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:11:07.102656 2020] [mpm_winnt:notice] [pid 548:tid 632] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 13:19:25.722274 2020] [mpm_winnt:notice] [pid 3660:tid 672] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 13:19:27.723390 2020] [mpm_winnt:notice] [pid 548:tid 632] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 13:19:27.737372 2020] [mpm_winnt:notice] [pid 3660:tid 672] AH00430: Parent: Child process 548 exited successfully.
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:19:28.496141 2020] [mpm_winnt:notice] [pid 6596:tid 644] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 13:19:28.496141 2020] [mpm_winnt:notice] [pid 6596:tid 644] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 13:19:28.496141 2020] [core:notice] [pid 6596:tid 644] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 13:19:28.497141 2020] [mpm_winnt:notice] [pid 6596:tid 644] AH00418: Parent: Created child process 10424
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:19:28.755057 2020] [mpm_winnt:notice] [pid 10424:tid 568] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 13:20:08.504840 2020] [mpm_winnt:notice] [pid 6596:tid 644] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 13:20:32.525419 2020] [mpm_winnt:notice] [pid 10424:tid 568] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 13:20:32.539416 2020] [mpm_winnt:notice] [pid 6596:tid 644] AH00430: Parent: Child process 10424 exited successfully.
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:20:33.309703 2020] [mpm_winnt:notice] [pid 5068:tid 664] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 13:20:33.309703 2020] [mpm_winnt:notice] [pid 5068:tid 664] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 13:20:33.309703 2020] [core:notice] [pid 5068:tid 664] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 13:20:33.311703 2020] [mpm_winnt:notice] [pid 5068:tid 664] AH00418: Parent: Created child process 4348
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:20:33.585121 2020] [mpm_winnt:notice] [pid 4348:tid 600] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 13:22:58.697256 2020] [mpm_winnt:notice] [pid 5068:tid 664] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 13:23:00.699166 2020] [mpm_winnt:notice] [pid 4348:tid 600] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 13:23:00.720044 2020] [mpm_winnt:notice] [pid 5068:tid 664] AH00430: Parent: Child process 4348 exited successfully.
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:23:01.533563 2020] [mpm_winnt:notice] [pid 9036:tid 680] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 13:23:01.533563 2020] [mpm_winnt:notice] [pid 9036:tid 680] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 13:23:01.533563 2020] [core:notice] [pid 9036:tid 680] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 13:23:01.534562 2020] [mpm_winnt:notice] [pid 9036:tid 680] AH00418: Parent: Created child process 10340
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:25
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/webprog/Apache24/docs/dummy-host2.example.com] does not exist
+[Mon Nov 23 13:23:01.800851 2020] [mpm_winnt:notice] [pid 10340:tid 604] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 13:24:06.817033 2020] [mpm_winnt:notice] [pid 9036:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 13:24:14.548819 2020] [mpm_winnt:notice] [pid 10340:tid 604] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 13:24:14.562213 2020] [mpm_winnt:notice] [pid 9036:tid 680] AH00430: Parent: Child process 10340 exited successfully.
+[Mon Nov 23 13:24:15.312255 2020] [mpm_winnt:notice] [pid 4528:tid 656] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 13:24:15.312255 2020] [mpm_winnt:notice] [pid 4528:tid 656] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 13:24:15.312255 2020] [core:notice] [pid 4528:tid 656] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 13:24:15.313254 2020] [mpm_winnt:notice] [pid 4528:tid 656] AH00418: Parent: Created child process 10724
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:25
+[Mon Nov 23 13:24:15.581820 2020] [mpm_winnt:notice] [pid 10724:tid 616] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:25:09.738468 2020] [mpm_winnt:notice] [pid 4528:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:25:39.738993 2020] [mpm_winnt:notice] [pid 4528:tid 656] AH00431: Parent: Forcing termination of child process 10724
+[Mon Nov 23 14:28:13.775025 2020] [mpm_winnt:notice] [pid 8608:tid 688] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:28:13.775025 2020] [mpm_winnt:notice] [pid 8608:tid 688] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:28:13.775025 2020] [core:notice] [pid 8608:tid 688] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:28:13.776027 2020] [mpm_winnt:notice] [pid 8608:tid 688] AH00418: Parent: Created child process 6372
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:29
+[Mon Nov 23 14:28:14.020031 2020] [mpm_winnt:notice] [pid 6372:tid 612] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:28:27.413980 2020] [mpm_winnt:notice] [pid 8608:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:28:30.321480 2020] [mpm_winnt:notice] [pid 6372:tid 612] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 14:28:30.335475 2020] [mpm_winnt:notice] [pid 8608:tid 688] AH00430: Parent: Child process 6372 exited successfully.
+[Mon Nov 23 14:28:31.052876 2020] [mpm_winnt:notice] [pid 5052:tid 720] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:28:31.053875 2020] [mpm_winnt:notice] [pid 5052:tid 720] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:28:31.053875 2020] [core:notice] [pid 5052:tid 720] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:28:31.056886 2020] [mpm_winnt:notice] [pid 5052:tid 720] AH00418: Parent: Created child process 11560
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:29
+[Mon Nov 23 14:28:31.327740 2020] [mpm_winnt:notice] [pid 11560:tid 584] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:29:24.285101 2020] [mpm_winnt:notice] [pid 5052:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:29:54.286337 2020] [mpm_winnt:notice] [pid 5052:tid 720] AH00431: Parent: Forcing termination of child process 11560
+[Mon Nov 23 14:29:54.726909 2020] [mpm_winnt:notice] [pid 5184:tid 720] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:29:54.727909 2020] [mpm_winnt:notice] [pid 5184:tid 720] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:29:54.727909 2020] [core:notice] [pid 5184:tid 720] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:29:54.728909 2020] [mpm_winnt:notice] [pid 5184:tid 720] AH00418: Parent: Created child process 1500
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:29
+[Mon Nov 23 14:29:54.971886 2020] [mpm_winnt:notice] [pid 1500:tid 608] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:29:59.487441 2020] [mpm_winnt:notice] [pid 5184:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:30:01.488842 2020] [mpm_winnt:notice] [pid 1500:tid 608] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 14:30:01.502774 2020] [mpm_winnt:notice] [pid 5184:tid 720] AH00430: Parent: Child process 1500 exited successfully.
+[Mon Nov 23 14:30:02.276507 2020] [mpm_winnt:notice] [pid 10744:tid 660] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:30:02.277507 2020] [mpm_winnt:notice] [pid 10744:tid 660] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:30:02.277507 2020] [core:notice] [pid 10744:tid 660] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:30:02.278506 2020] [mpm_winnt:notice] [pid 10744:tid 660] AH00418: Parent: Created child process 7196
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:29
+[Mon Nov 23 14:30:02.531398 2020] [mpm_winnt:notice] [pid 7196:tid 624] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:30:17.547003 2020] [mpm_winnt:notice] [pid 10744:tid 660] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:30:47.548857 2020] [mpm_winnt:notice] [pid 10744:tid 660] AH00431: Parent: Forcing termination of child process 7196
+[Mon Nov 23 14:30:54.364932 2020] [mpm_winnt:notice] [pid 8196:tid 668] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:30:54.365932 2020] [mpm_winnt:notice] [pid 8196:tid 668] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:30:54.365932 2020] [core:notice] [pid 8196:tid 668] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:30:54.366932 2020] [mpm_winnt:notice] [pid 8196:tid 668] AH00418: Parent: Created child process 5688
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:29
+[Mon Nov 23 14:30:54.610866 2020] [mpm_winnt:notice] [pid 5688:tid 660] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:32:41.508802 2020] [mpm_winnt:notice] [pid 8196:tid 668] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:32:43.509828 2020] [mpm_winnt:notice] [pid 5688:tid 660] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 14:32:43.527653 2020] [mpm_winnt:notice] [pid 8196:tid 668] AH00430: Parent: Child process 5688 exited successfully.
+[Mon Nov 23 14:32:44.341457 2020] [mpm_winnt:notice] [pid 11688:tid 688] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:32:44.342457 2020] [mpm_winnt:notice] [pid 11688:tid 688] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:32:44.342457 2020] [core:notice] [pid 11688:tid 688] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:32:44.343457 2020] [mpm_winnt:notice] [pid 11688:tid 688] AH00418: Parent: Created child process 11964
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:29
+[Mon Nov 23 14:32:44.569802 2020] [mpm_winnt:notice] [pid 11964:tid 660] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:33:39.755876 2020] [mpm_winnt:notice] [pid 11688:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:33:41.778869 2020] [mpm_winnt:notice] [pid 11964:tid 660] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 14:33:41.794493 2020] [mpm_winnt:notice] [pid 11688:tid 688] AH00430: Parent: Child process 11964 exited successfully.
+[Mon Nov 23 14:35:42.904449 2020] [mpm_winnt:notice] [pid 4444:tid 664] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:35:42.905449 2020] [mpm_winnt:notice] [pid 4444:tid 664] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:35:42.905449 2020] [core:notice] [pid 4444:tid 664] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:35:42.906448 2020] [mpm_winnt:notice] [pid 4444:tid 664] AH00418: Parent: Created child process 3696
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:29
+[Mon Nov 23 14:35:43.475264 2020] [mpm_winnt:notice] [pid 3696:tid 632] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:39:28.182184 2020] [mpm_winnt:notice] [pid 4444:tid 664] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:39:30.184211 2020] [mpm_winnt:notice] [pid 3696:tid 632] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 14:39:30.198319 2020] [mpm_winnt:notice] [pid 4444:tid 664] AH00430: Parent: Child process 3696 exited successfully.
+[Mon Nov 23 14:39:30.998843 2020] [mpm_winnt:notice] [pid 1352:tid 688] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:39:30.999844 2020] [mpm_winnt:notice] [pid 1352:tid 688] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:39:30.999844 2020] [core:notice] [pid 1352:tid 688] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:39:31.000843 2020] [mpm_winnt:notice] [pid 1352:tid 688] AH00418: Parent: Created child process 1792
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:29
+[Mon Nov 23 14:39:31.235109 2020] [mpm_winnt:notice] [pid 1792:tid 612] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:41:20.093316 2020] [mpm_winnt:notice] [pid 1352:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:41:31.046963 2020] [mpm_winnt:notice] [pid 1792:tid 612] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 14:41:31.068958 2020] [mpm_winnt:notice] [pid 1352:tid 688] AH00430: Parent: Child process 1792 exited successfully.
+[Mon Nov 23 14:41:31.842252 2020] [mpm_winnt:notice] [pid 5264:tid 688] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:41:31.843252 2020] [mpm_winnt:notice] [pid 5264:tid 688] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:41:31.843252 2020] [core:notice] [pid 5264:tid 688] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:41:31.844251 2020] [mpm_winnt:notice] [pid 5264:tid 688] AH00418: Parent: Created child process 3268
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:27
+[Mon Nov 23 14:41:32.096124 2020] [mpm_winnt:notice] [pid 3268:tid 612] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:43:12.221892 2020] [mpm_winnt:notice] [pid 5264:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:43:14.223543 2020] [mpm_winnt:notice] [pid 3268:tid 612] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 14:43:14.237539 2020] [mpm_winnt:notice] [pid 5264:tid 688] AH00430: Parent: Child process 3268 exited successfully.
+[Mon Nov 23 14:43:15.002510 2020] [mpm_winnt:notice] [pid 9036:tid 688] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:43:15.003510 2020] [mpm_winnt:notice] [pid 9036:tid 688] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:43:15.003510 2020] [core:notice] [pid 9036:tid 688] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:43:15.004509 2020] [mpm_winnt:notice] [pid 9036:tid 688] AH00418: Parent: Created child process 11056
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:27
+[Mon Nov 23 14:43:15.258442 2020] [mpm_winnt:notice] [pid 11056:tid 660] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:43:49.112048 2020] [mpm_winnt:notice] [pid 9036:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:44:19.113620 2020] [mpm_winnt:notice] [pid 9036:tid 688] AH00431: Parent: Forcing termination of child process 11056
+[Mon Nov 23 14:44:19.532886 2020] [mpm_winnt:notice] [pid 1532:tid 688] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:44:19.532886 2020] [mpm_winnt:notice] [pid 1532:tid 688] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:44:19.532886 2020] [core:notice] [pid 1532:tid 688] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:44:19.533886 2020] [mpm_winnt:notice] [pid 1532:tid 688] AH00418: Parent: Created child process 1116
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:27
+[Mon Nov 23 14:44:19.768987 2020] [mpm_winnt:notice] [pid 1116:tid 648] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:45:12.036209 2020] [mpm_winnt:notice] [pid 1532:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:45:24.305372 2020] [mpm_winnt:notice] [pid 1116:tid 648] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 14:45:24.322368 2020] [mpm_winnt:notice] [pid 1532:tid 688] AH00430: Parent: Child process 1116 exited successfully.
+[Mon Nov 23 14:45:25.028825 2020] [mpm_winnt:notice] [pid 3356:tid 664] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:45:25.029824 2020] [mpm_winnt:notice] [pid 3356:tid 664] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:45:25.029824 2020] [core:notice] [pid 3356:tid 664] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:45:25.030825 2020] [mpm_winnt:notice] [pid 3356:tid 664] AH00418: Parent: Created child process 6020
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:26
+[Mon Nov 23 14:45:25.289898 2020] [mpm_winnt:notice] [pid 6020:tid 580] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:46:31.307288 2020] [mpm_winnt:notice] [pid 3356:tid 664] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:47:01.308233 2020] [mpm_winnt:notice] [pid 3356:tid 664] AH00431: Parent: Forcing termination of child process 6020
+[Mon Nov 23 14:47:01.774939 2020] [mpm_winnt:notice] [pid 8660:tid 688] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:47:01.775932 2020] [mpm_winnt:notice] [pid 8660:tid 688] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:47:01.775932 2020] [core:notice] [pid 8660:tid 688] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:47:01.777927 2020] [mpm_winnt:notice] [pid 8660:tid 688] AH00418: Parent: Created child process 6940
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:26
+[Mon Nov 23 14:47:02.034946 2020] [mpm_winnt:notice] [pid 6940:tid 612] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:47:22.748795 2020] [mpm_winnt:notice] [pid 8660:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:47:52.750122 2020] [mpm_winnt:notice] [pid 8660:tid 688] AH00431: Parent: Forcing termination of child process 6940
+[Mon Nov 23 14:48:19.143225 2020] [mpm_winnt:notice] [pid 13232:tid 656] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:48:19.143225 2020] [mpm_winnt:notice] [pid 13232:tid 656] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:48:19.143225 2020] [core:notice] [pid 13232:tid 656] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:48:19.145224 2020] [mpm_winnt:notice] [pid 13232:tid 656] AH00418: Parent: Created child process 9624
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:26
+[Mon Nov 23 14:48:19.379378 2020] [mpm_winnt:notice] [pid 9624:tid 628] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:49:17.498767 2020] [mpm_winnt:notice] [pid 13232:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:49:37.708518 2020] [mpm_winnt:notice] [pid 9624:tid 628] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 14:49:37.721525 2020] [mpm_winnt:notice] [pid 13232:tid 656] AH00430: Parent: Child process 9624 exited successfully.
+[Mon Nov 23 14:50:40.238781 2020] [mpm_winnt:notice] [pid 10468:tid 688] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:50:40.239780 2020] [mpm_winnt:notice] [pid 10468:tid 688] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:50:40.239780 2020] [core:notice] [pid 10468:tid 688] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:50:40.240780 2020] [mpm_winnt:notice] [pid 10468:tid 688] AH00418: Parent: Created child process 8700
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:26
+[Mon Nov 23 14:50:40.488700 2020] [mpm_winnt:notice] [pid 8700:tid 612] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:52:19.622584 2020] [mpm_winnt:notice] [pid 10468:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:52:49.622658 2020] [mpm_winnt:notice] [pid 10468:tid 688] AH00431: Parent: Forcing termination of child process 8700
+[Mon Nov 23 14:52:50.077454 2020] [mpm_winnt:notice] [pid 2536:tid 656] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:52:50.077454 2020] [mpm_winnt:notice] [pid 2536:tid 656] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:52:50.077454 2020] [core:notice] [pid 2536:tid 656] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:52:50.078454 2020] [mpm_winnt:notice] [pid 2536:tid 656] AH00418: Parent: Created child process 10536
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:26
+[Mon Nov 23 14:52:50.314464 2020] [mpm_winnt:notice] [pid 10536:tid 584] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 14:53:06.097888 2020] [mpm_winnt:notice] [pid 2536:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 14:53:36.098518 2020] [mpm_winnt:notice] [pid 2536:tid 656] AH00431: Parent: Forcing termination of child process 10536
+[Mon Nov 23 14:53:36.532644 2020] [mpm_winnt:notice] [pid 9816:tid 656] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 14:53:36.533644 2020] [mpm_winnt:notice] [pid 9816:tid 656] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 14:53:36.533644 2020] [core:notice] [pid 9816:tid 656] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 14:53:36.534644 2020] [mpm_winnt:notice] [pid 9816:tid 656] AH00418: Parent: Created child process 8292
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:26
+[Mon Nov 23 14:53:36.769794 2020] [mpm_winnt:notice] [pid 8292:tid 580] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 15:01:42.577283 2020] [mpm_winnt:notice] [pid 9816:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 15:01:44.601284 2020] [mpm_winnt:notice] [pid 8292:tid 580] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 15:01:44.616909 2020] [mpm_winnt:notice] [pid 9816:tid 656] AH00430: Parent: Child process 8292 exited successfully.
+[Mon Nov 23 15:08:29.149781 2020] [mpm_winnt:notice] [pid 1588:tid 656] AH00455: Apache/2.4.46 (Win64) configured -- resuming normal operations
+[Mon Nov 23 15:08:29.150781 2020] [mpm_winnt:notice] [pid 1588:tid 656] AH00456: Apache Lounge VS16 Server built: Oct  2 2020 11:45:39
+[Mon Nov 23 15:08:29.150781 2020] [core:notice] [pid 1588:tid 656] AH00094: Command line: 'F:\\webprog\\Apache24\\bin\\httpd.exe -d F:/webprog/Apache24'
+[Mon Nov 23 15:08:29.151780 2020] [mpm_winnt:notice] [pid 1588:tid 656] AH00418: Parent: Created child process 1824
+AH00548: NameVirtualHost has no effect and will be removed in the next release F:/webprog/Apache24/conf/extra/httpd-vhosts.conf:26
+[Mon Nov 23 15:08:29.390762 2020] [mpm_winnt:notice] [pid 1824:tid 604] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 23 15:18:44.890876 2020] [mpm_winnt:notice] [pid 1588:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 23 15:18:46.892911 2020] [mpm_winnt:notice] [pid 1824:tid 604] AH00364: Child: All worker threads have exited.
+[Mon Nov 23 15:18:46.906933 2020] [mpm_winnt:notice] [pid 1588:tid 656] AH00430: Parent: Child process 1824 exited successfully.

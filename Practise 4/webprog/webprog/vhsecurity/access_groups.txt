@@ -1,0 +1,7 @@
+group1:user1 user2
+group2:user3 user4
+
+user1:111
+user2:222
+user3:333
+user4:444

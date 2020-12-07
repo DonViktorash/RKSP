@@ -1,0 +1,6 @@
+[Mon Nov 23 13:00:37.955424 2020] [authz_core:error] [pid 9128:tid 1136] [client 127.0.0.1:2091] AH01630: client denied by server configuration: F:/webprog/Apache24/docs
+[Mon Nov 23 13:00:38.727944 2020] [authz_core:error] [pid 9128:tid 1136] [client 127.0.0.1:2091] AH01630: client denied by server configuration: F:/webprog/Apache24/docs
+[Mon Nov 23 13:00:39.381166 2020] [authz_core:error] [pid 9128:tid 1136] [client 127.0.0.1:2091] AH01630: client denied by server configuration: F:/webprog/Apache24/docs
+[Mon Nov 23 13:00:39.869755 2020] [authz_core:error] [pid 9128:tid 1136] [client 127.0.0.1:2091] AH01630: client denied by server configuration: F:/webprog/Apache24/docs
+[Mon Nov 23 13:00:40.242655 2020] [authz_core:error] [pid 9128:tid 1136] [client 127.0.0.1:2091] AH01630: client denied by server configuration: F:/webprog/Apache24/docs
+[Mon Nov 23 13:00:43.788304 2020] [authz_core:error] [pid 9128:tid 1136] [client 127.0.0.1:2091] AH01630: client denied by server configuration: F:/webprog/Apache24/docs

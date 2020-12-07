@@ -1,0 +1,10 @@
+[Mon Nov 23 13:24:32.480175 2020] [authz_core:error] [pid 10724:tid 1192] [client 127.0.0.1:1892] AH01630: client denied by server configuration: F:/webprog/vh2/
+[Mon Nov 23 13:24:32.593175 2020] [authz_core:error] [pid 10724:tid 1192] [client 127.0.0.1:1892] AH01630: client denied by server configuration: F:/webprog/vh2/favicon.ico, referer: http://127.0.0.1:82/
+[Mon Nov 23 14:23:24.667081 2020] [authz_core:error] [pid 10724:tid 1172] [client 127.0.0.1:2479] AH01630: client denied by server configuration: F:/webprog/vh2/
+[Mon Nov 23 14:23:24.844272 2020] [authz_core:error] [pid 10724:tid 1172] [client 127.0.0.1:2479] AH01630: client denied by server configuration: F:/webprog/vh2/favicon.ico, referer: http://127.0.0.1:82/
+[Mon Nov 23 14:39:56.181308 2020] [authz_core:error] [pid 1792:tid 1156] [client 127.0.0.1:1821] AH01630: client denied by server configuration: F:/webprog/vh2/
+[Mon Nov 23 14:39:56.272134 2020] [authz_core:error] [pid 1792:tid 1156] [client 127.0.0.1:1821] AH01630: client denied by server configuration: F:/webprog/vh2/favicon.ico, referer: http://127.0.0.1:82/
+[Mon Nov 23 14:41:41.086567 2020] [authz_core:error] [pid 3268:tid 1132] [client 127.0.0.1:1841] AH01630: client denied by server configuration: F:/webprog/vh2/
+[Mon Nov 23 14:41:41.190040 2020] [authz_core:error] [pid 3268:tid 1132] [client 127.0.0.1:1841] AH01630: client denied by server configuration: F:/webprog/vh2/favicon.ico, referer: http://127.0.0.1:82/
+[Mon Nov 23 14:52:02.041329 2020] [authz_core:error] [pid 8700:tid 1168] [client 127.0.0.1:1995] AH01630: client denied by server configuration: F:/webprog/vh2/
+[Mon Nov 23 14:52:02.306750 2020] [authz_core:error] [pid 8700:tid 1168] [client 127.0.0.1:1995] AH01630: client denied by server configuration: F:/webprog/vh2/favicon.ico, referer: http://127.0.0.1:82/
