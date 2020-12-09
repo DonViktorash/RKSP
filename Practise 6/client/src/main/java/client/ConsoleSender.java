@@ -60,7 +60,7 @@ public class ConsoleSender {
                     System.out.println("Данные отправлены - ждем ответа с сервера...");
 
                     // если успел забираем ответ из канала сервера в сокете и сохраняем её в ois переменную,  печатаем на свою клиентскую консоль
-                    System.out.print("читаем... ");
+                    System.out.print("читаем... и находим максимальное число:");
                     String in = ois.readUTF();
                     System.out.println(in);
                     System.out.println("Введите данные...");

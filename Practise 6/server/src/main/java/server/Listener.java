@@ -56,9 +56,11 @@ public class Listener {
                 Math math = new Math(text);
                 math.Parser();
                 System.out.println("Максимальное число в последовательности: "+ math.getResult());
+                String sender = "" + math.getResult();
 //                System.out.println("Набираем:"+text);
+                sendEcho(sender);
                 text="";
-                sendEcho(entry);
+//                sendEcho(entry);
             }
 
             // если условие выхода - верно выключаем соединения
