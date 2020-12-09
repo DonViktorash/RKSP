@@ -1,0 +1,175 @@
+<html>
+	<head>
+		<title>Лаб4</title>
+		<style> canvas{border:1px solid black;display:block;} #Result{visibility:hidden;position:absolute;font-size: 25;font:Courier;} </style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			var Expl=function(filename,width_frames,height_frames) {
+				this.sprite=new Image();
+				this.sprite.src=filename;
+				this.width_frames=width_frames;
+				this.height_frames=height_frames;
+				this.frames=width_frames*height_frames;
+				this.playanim=function(expltime,xpos,ypos,newwidth,newheight) {
+					var frame=Math.floor(((expltimedefault-expltime)*this.frames)/expltimedefault);
+					var swidth=this.sprite.width;
+					var sheight=this.sprite.height;
+					var sx=swidth*(frame%this.width_frames);
+					var sy=sheight*Math.floor(frame/this.width_frames);
+					swidth=Math.floor(swidth/this.width_frames);
+					sheight=Math.floor(sheight/this.height_frames);
+					sx=Math.floor(sx/this.width_frames);
+					sy=Math.floor(sy/this.height_frames);
+					ctx.drawImage(this.sprite,sx,sy,swidth,sheight,xpos,ypos,newwidth,newheight);
+				}
+				this.check=function() {
+					return this.sprite.complete;
+				}
+			}
+			var expls=[];
+			var cur=0;
+			var time=0;
+			var count=0;
+			var totalcount=0;
+			var defaulttime=700;
+			var bubbletime=0;
+			var expltime=0;
+			var expltimedefault=500;
+			var radius=20;
+			var explsprite=new Image();
+			var xpos=0;
+			var buttontimedefault=5000;
+			var gametime=0;
+			var ypos=0;
+			var canvas;
+			var colors=["red","yellow","blue","green","cyan","orange"];
+			var colorindex=0;
+			var bubblecount=0;
+			var ctx;
+			var frame;
+			function Init() {
+				canvas=document.getElementById("field");
+				ctx=canvas.getContext("2d");
+				explsprite.src='explosion.png';
+				expls.push(new Expl('explosion.png',4,4));
+				expls.push(new Expl('explosion-sprite.png',5,3));
+				checkForAllImagesLoaded();
+			}
+			function checkForAllImagesLoaded() {
+			    for (var i = 0; i < expls.count; i++) {
+			        if (!expls[i].check()) {
+			            setTimeout('checkForAllImagesLoaded()', 50);
+			            return;
+			        }
+			    }
+			 	$("#StartButton").show();
+			 	$("#StartButton").attr("onClick","start()");
+				return;
+			}
+			function stop() {
+				cancelAnimationFrame(frame);
+				canvas.removeEventListener("mousedown",mouseclick,false);
+				bubbletime=0;
+				expltime=0;
+				var btn=document.getElementById("StartButton");
+				btn.onclick=start;
+				btn.textContent="start";
+				var res=document.getElementById("Result");
+				//res.style.fontSize=30;
+				res.innerHTML="Ваш результат: "+count+"."+"<br>Всего кружков сгенерировано: "+bubblecount+".";
+				if(count>0)
+					res.innerHTML+="<br>Доля удачных щелчков: "+((count*100)/totalcount).toFixed(2)+"%.";
+				res.style.visibility="visible";
+				ctx.clearRect(0, 0, canvas.width, canvas.height);
+			}
+			var lastFrameTime=0;
+			function start() {
+				gametime=0;
+				ctx.clearRect(0, 0, canvas.width, canvas.height);
+				count=0;
+				totalcount=0;
+				bubblecount=0;
+				canvas.addEventListener("mousedown",mouseclick,false);
+				genBubble();
+				var res=document.getElementById("Result");
+				res.style.visibility='hidden';
+				var btn=document.getElementById("StartButton");
+				btn.onclick=stop;
+				btn.style.visibility='hidden';
+				btn.textContent="stop";
+				lastFrameTime= performance.now();
+				frame=requestAnimationFrame(loop);
+			}
+			function loop(timestamp) {
+				frame=requestAnimationFrame(loop);
+				var delta=timestamp-lastFrameTime;
+				lastFrameTime=timestamp;
+				update(delta);
+				draw();
+			}
+			function update(delta) {
+				gametime+=delta;
+				if(gametime>buttontimedefault) {	
+					var btn=document.getElementById("StartButton");
+					btn.style.visibility='visible';
+				}
+				bubbletime-=delta;
+				if(expltime==0) {	
+					if(bubbletime<0) {
+						genBubble();
+					}
+				}
+				else {
+					expltime-=delta;
+					if(expltime<0) {	
+						expltime=0;
+						genBubble();
+					}
+				}
+			}
+			function draw() {
+				ctx.clearRect(0, 0, canvas.width, canvas.height);
+				if(expltime==0) {
+					ctx.beginPath();
+					ctx.arc(xpos,ypos,radius,0,2*Math.PI);
+					ctx.fillStyle=colors[colorindex];
+					ctx.fill();
+				} else {
+					expls[cur].playanim(expltime,xpos-radius,ypos-radius,radius*2,radius*2);
+				}
+			}
+			function genBubble() {
+				xpos=Math.round(Math.random()*(canvas.width-2*radius)+radius);
+				ypos=Math.round(Math.random()*(canvas.height-2*radius)+radius);
+				var t=Math.random();
+				bubbletime=(t+0.5)*defaulttime;
+				colorindex=(colorindex+1)%6;
+				bubblecount+=1;
+			}
+			function mouseclick(event) {
+				totalcount++;
+				if(expltime==0) {
+					var x=event.pageX;
+					var y=event.pageY;
+					x-=canvas.offsetLeft;
+					y-=canvas.offsetTop;
+					x=x-xpos;
+					y=y-ypos;
+					if((x*x+y*y)<=(radius*radius)) {
+						count++;
+						//genBubble();
+						cur=1-cur;
+						expltime=expltimedefault;
+					}
+				}
+			}
+		</script>
+		<meta charset="utf-8">
+	</head>
+	<body onLoad="Init()">
+		<div id="Result">
+		</div>
+		<canvas id="field" width="400" height="400"></canvas>
+		<button id="StartButton">start</button>
+	</body>
+</html>
