@@ -12,7 +12,7 @@ public class SimpleHttpServer {
 
 
         try {
-            ServerSocket serverConnect = new ServerSocket(8080);
+            ServerSocket serverConnect = new ServerSocket(8081);
             System.out.println("Сокет создан на порту 8080 - ждем запросов от клиентов");
 
             // начинаем слушать запросы

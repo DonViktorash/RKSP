@@ -1,0 +1,17 @@
+body {
+  font: Georgia, sans-serif;
+  font-size: 15px;
+  background: #f1f1f1
+}
+.navigation-bar {
+  list-style: none;
+  font-size: 18px;
+  padding: 5px 20px;
+}
+.navigation-bar > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+#response-text {
+  margin-top: 20px
+}
